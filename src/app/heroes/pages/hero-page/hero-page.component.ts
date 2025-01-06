@@ -5,9 +5,10 @@ import {  delay, switchMap } from 'rxjs';
 import { Hero } from '../../interfaces/hero.interface';
 
 @Component({
-  selector: 'heroes-hero-page',
-  templateUrl: './hero-page.component.html',
-  styles: ``
+    selector: 'heroes-hero-page',
+    templateUrl: './hero-page.component.html',
+    styles: ``,
+    standalone: false
 })
 export class HeroPageComponent implements OnInit{
 

@@ -3,9 +3,10 @@ import { Hero } from '../../interfaces/hero.interface';
 import { HeroesService } from '../../services/heroes.service';
 
 @Component({
-  selector: 'heroes-list-page',
-  templateUrl: './list-page.component.html',
-  styles: ``
+    selector: 'heroes-list-page',
+    templateUrl: './list-page.component.html',
+    styles: ``,
+    standalone: false
 })
 export class ListPageComponent implements OnInit{
 

@@ -5,9 +5,10 @@ import { HeroesService } from '../../services/heroes.service';
 import { MatAutocompleteSelectedEvent } from '@angular/material/autocomplete';
 
 @Component({
-  selector: 'heroes-search-page',
-  templateUrl: './search-page.component.html',
-  styles: ``
+    selector: 'heroes-search-page',
+    templateUrl: './search-page.component.html',
+    styles: ``,
+    standalone: false
 })
 export class SearchPageComponent {
 
