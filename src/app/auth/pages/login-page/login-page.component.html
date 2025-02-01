@@ -14,7 +14,9 @@
     <input type="password" matInput placeholder="Enter Password">
   </mat-form-field>
 
-  <button mat-fab extended color="primary" > <mat-icon>login</mat-icon>Login</button>
+  <button mat-fab extended color="primary"
+    (click)="onLogin()"
+  > <mat-icon>login</mat-icon>Login</button>
 
   <div class="flex justify-content-end mt-5">
     <a routerLink="/auth/register">Ready to join? Click here to create your account.</a>

@@ -31,8 +31,8 @@ const routes: Routes = [
       {
         /*Esta ruta se le conoce como comodin
         Este pad se colocal al final porque luiego no entra ninguna otra ruta*/
-        path: ':id',
-        component: HeroPageComponent
+        path: 'list',
+        component: ListPageComponent
       },
 
     ]
